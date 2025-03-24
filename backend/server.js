@@ -10,6 +10,8 @@ const quizRoutes = require("./routes/quizRoutes");
 
 require("dotenv").config(); // Load environment variables
 
+consolele.log("ok");
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 // const MONGO_URI = "mongodb+srv://ha0804:%23Ohmyfriend27@ha0804.slevl.mongodb.net/?retryWrites=true&w=majority&appName=ha0804";
